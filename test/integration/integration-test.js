@@ -6,7 +6,7 @@ var dynamo = require('../../index'),
     async  = require('async'),
     _      = require('lodash'),
     helper = require('../test-helper'),
-    uuidv4 = require('uuid/v4'),
+    { v4: uuidv4 } = require('uuid'),
     Joi    = require('@hapi/joi');
 
 chai.should();

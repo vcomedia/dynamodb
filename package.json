@@ -20,24 +20,24 @@
     "nosql"
   ],
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=10.0.0"
   },
   "license": "MIT",
   "dependencies": {
-    "@hapi/joi": "^17.0.2",
+    "@hapi/joi": "^17.1.1",
     "async": "^2.6.3",
-    "aws-sdk": "^2.597.0",
+    "aws-sdk": "^2.653.0",
     "bunyan": "^1.8.12",
     "lodash": "^4.17.15",
     "stream-to-promise": "^2.2.0",
-    "uuid": "^3.3.3"
+    "uuid": "^7.0.3"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "jshint": "^2.10.3",
     "jshint-stylish": "^2.2.1",
-    "mocha": "^7.0.0",
-    "nyc": "^15.0.0",
-    "sinon": "^8.0.2"
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.1",
+    "sinon": "^9.0.1"
   }
 }
